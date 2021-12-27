@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Dictionary from "./Dictionary";
 
-function App() {
+import "./App.css";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Dictionary</h1>
+      <Dictionary />
+      <footer>
+        <small>
+          This{" "}
+          <a href="https://github.com/brittness/new-dictionary-app">
+            open sourced
+          </a>{" "}
+          dictionary was built by Brittany Linn and hosted on{" "}
+          <a href="https://trusting-tesla-9a56c6.netlify.app">Netlify</a>
+        </small>
+      </footer>
     </div>
   );
 }
-
-export default App;
