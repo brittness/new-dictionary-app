@@ -15,7 +15,13 @@ export default function App() {
             open sourced
           </a>{" "}
           dictionary was built by Brittany Linn and hosted on{" "}
-          <a href="https://trusting-tesla-9a56c6.netlify.app">Netlify</a>
+          <a
+            href="https://trusting-tesla-9a56c6.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
         </small>
       </footer>
     </div>
