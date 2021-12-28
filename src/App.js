@@ -11,7 +11,11 @@ export default function App() {
       <footer>
         <small>
           This{" "}
-          <a href="https://github.com/brittness/new-dictionary-app">
+          <a
+            href="https://github.com/brittness/new-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             open sourced
           </a>{" "}
           dictionary was built by Brittany Linn and hosted on{" "}
